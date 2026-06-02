@@ -11,7 +11,7 @@ GPIO.setup(LED_PIN, GPIO.OUT)
 GPIO.setup(BUZZER_PIN, GPIO.OUT)
 
 # Load YOLOv8 bird detection model
-model = YOLO("bird_detection.pt")  # your trained model file
+model = YOLO("my_model.pt")  # your trained model file
 
 # Open camera (0 = default USB cam, use 0 or 1 depending on setup)
 cap = cv2.VideoCapture(0)
